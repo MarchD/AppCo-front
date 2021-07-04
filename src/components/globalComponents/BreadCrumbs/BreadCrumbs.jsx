@@ -10,7 +10,7 @@ export const BreadCrumbs = ({crumbs}) => (
     {
       crumbs.map(({name, link}) => (
         <>
-          <span/>
+          <span className={styles.separator}/>
           <NavLink
             to={link}
             key={link}

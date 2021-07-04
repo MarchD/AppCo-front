@@ -20,3 +20,14 @@ export const benefits = [
     text: 'Realize importance of social proof in customer’s purchase decision.'
   },
 ];
+
+export const headOfTable = [
+  'Id',
+  'First name',
+  'Last name',
+  'Email',
+  'Gender',
+  'IP address',
+  'Total clicks',
+  'Total page views'
+];

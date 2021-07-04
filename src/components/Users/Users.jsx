@@ -3,6 +3,7 @@ import styles from './Users.module.scss';
 import classNames from "classnames";
 import {BreadCrumbs} from "../globalComponents/BreadCrumbs";
 import {USERS_PAGE_ROUTER} from "../App/AppRoutes/routesConst";
+import {UsersTable} from "./UsersTable";
 
 export const Users = () => {
   const crumbs = [{name: 'Users statistics', link: USERS_PAGE_ROUTER}];
@@ -12,13 +13,7 @@ export const Users = () => {
       <BreadCrumbs crumbs={crumbs}/>
       <h2 className={styles.title}>Users statistics</h2>
 
-      <table>
-        <thead>
-          <tr>
-
-          </tr>
-        </thead>
-      </table>
+      <UsersTable />
     </section>
   )
 };
